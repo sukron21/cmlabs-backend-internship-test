@@ -1,16 +1,16 @@
 let fizzBuzz = (a) =>{
     for(let b=1; b<=a; b++){
-        let output = ''
+        let c = ''
         if(b%3==0){
-            output+='Fizz' ;
+            c+='Fizz' ;
         }
         if(b%5==0){
-            output+='Buzz';
+            c+='Buzz';
         }
-        if (output === '') {
-            output = b.toString();
+        if (c === '') {
+            c = b.toString();
           }
-        console.log(output)
+        console.log(c)
     }
 }
 
